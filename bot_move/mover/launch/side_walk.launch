@@ -1,0 +1,5 @@
+<launch>
+
+ <node name="lane_node" pkg="mover" type="side_walk.py"  output="screen"></node>
+
+</launch>

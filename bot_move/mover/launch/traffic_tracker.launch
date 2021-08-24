@@ -1,0 +1,5 @@
+<launch>
+
+ <node name="traffic_node" pkg="mover" type="traffic_tracker.py"  output="screen"></node>
+
+</launch>

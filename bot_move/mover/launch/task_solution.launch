@@ -1,0 +1,6 @@
+<launch>
+
+ <node name="lane_node" pkg="mover" type="side_walk.py"  output="screen"></node>
+ <node name="traffic_node" pkg="mover" type="traffic_tracker.py"  output="screen"></node>
+
+</launch>
